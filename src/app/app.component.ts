@@ -8,7 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   
   
-  courses = [1];
+  viewMode = 'toto';
+
+
+  //courses = [1];
   
   
   
