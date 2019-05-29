@@ -3,7 +3,9 @@
 
 <ul>
   <li *ngFor="let course of courses; even as isEven" >
-     {{course.name}}   <button (click)="onRemove(course)">Remove</button>
+     {{course.name}}   
+     <button class="btn btn-primary" (click)="onChange(course)">Change</button>
+     <button (click)="onRemove(course)">Remove</button>
   </li>
 </ul>
  

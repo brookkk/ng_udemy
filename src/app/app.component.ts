@@ -22,5 +22,9 @@ export class AppComponent {
     let index = this.courses.indexOf(course);
     this.courses.splice(index,1)
   }
+
+  onChange(course){
+    course.name = "updated";
+  }
   
 }
