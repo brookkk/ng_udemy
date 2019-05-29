@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CourseComponent } from './course/course.component';
 import { SummaryPipe } from './summary.pipe';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseComponent,
     SummaryPipe,
-    FavoriteComponent
+    FavoriteComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
