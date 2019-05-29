@@ -8,7 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   
    
-canSave = true;
+task = {
+  title : 'Review applications',
+  assignee : null
+
+}
   
  
   
