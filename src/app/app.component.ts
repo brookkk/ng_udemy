@@ -8,24 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   
   
-  viewMode = 'toto';
+  courses = [
+    { id: 1, name: 'course1'},
+    { id: 2, name: 'course2'},
+    { id: 3, name: 'course3'},
+  ];
 
 
-  //courses = [1];
   
-  
-  
-  
-  
-  
-  /*title = 'hello';
-
-  post = {
-    title : "Title",
-    isFavorite: true
-  }
-
-  onFavoriteChanged(eventArgs: {newValue: boolean}){
-    console.log("favorite changed: ", eventArgs);
-  }*/
 }
