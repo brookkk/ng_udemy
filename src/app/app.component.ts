@@ -7,19 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   
-  courses;
+   
+canSave = false;
   
-
-  loadCourses(){
-    this.courses = [
-      { id: 1, name: 'course1'},
-      { id: 2, name: 'course2'},
-      { id: 3, name: 'course3'},
-    ];
-  }
-
-  trackCourse(index, course){
-    return course? course.id: undefined;
-  }
+ 
   
 }
